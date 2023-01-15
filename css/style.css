@@ -1,0 +1,40 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #9b0000;
+    font-family: 'Sofia', cursive;
+}
+  
+/** HEADER **/
+#header-nav {
+    background-color: green;
+    border-radius: 0;
+    border: 0;
+}
+  
+#logo-img {
+    background: url('../images/Logo400px300px.jpg') no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 10px 15px 10px 0;
+}
+  
+/* .navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 { Restaurant name 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+} 
+
+*/
