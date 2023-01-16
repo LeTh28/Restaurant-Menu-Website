@@ -20,12 +20,13 @@
         <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="index.html" class="pull-left">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
                         <div id="logo-img" alt="Logo"></div>
                     </a>
                     <div class="navbar-brand">
-                        <a href="index.html">
+                        <a href="index.html" class="visible-xs visible-sm">
                             <h1>Fetta Di Magia</h1>
+                            <h4>Taste the Rome Experience</h4>
                         </a>
                     </div>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -48,13 +49,13 @@
                         </li>
                         <li>
                             <a href="#">
-                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                                <span class="glyphicon glyphicon-edit"></span><br class="hidden-xs">Make Your Plate</a>
                         </li>
                         <li>
                             <a href="#">
-                                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+                                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
                         </li>
-                        <li id="phone" class="hidden-xs">
+                        <li id="phone" class="hidden-xs last-item">
                             <a href="tel:+961 76006368">
                                 <span>+961 76006368</span></a>
                             <div>* We Deliver to Your Doorstep!</div>
@@ -64,3 +65,72 @@
             </div><!-- .container -->
         </nav><!-- #header-nav -->
     </header>
+
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel: +961 76006368">
+            <span class="glyphicon glyphicon-earphone"></span> +961 76006368 </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* We Deliver to Your Doorstep!</div>
+
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+        </div>
+
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menu-categories.html">
+                    <div id="menu-tile"><span>Pizza | Pasta | Soup</span></div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html">
+                    <div id="specials-tile"><span>Desserts | Bread | Pastries</span></div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/Xy81pphiuqRbLEos6" target="_blank">
+                    <div id="map-tile">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.6524301628237!2d35.475369814279794!3d33.89860423326018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f10d54a025111%3A0x719c2ff1fd7854f7!2sBliss%2C%20Bayrut!5e0!3m2!1sen!2slb!4v1673798211819!5m2!1sen!2slb"
+                            width="100%" height="250" style="border:0;" allowfullscreen=""
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div><!-- End of #home-tiles -->
+    </div><!-- End of #main-content -->
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Opening Hours:</span><br>
+                    Tuesday-Saturday: 10:00am - 11:30pm<br>
+                    Sunday: 10:00am - 8:30pm<br>
+                    Monday Closed
+                    <hr class="visible-xs">
+                </section>
+                <section id="freshly-baked" class="col-sm-4">
+                    <span>FRESHLY BAKED</span>
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    Bliss Street<br>
+                    Beirut, Lebanon
+                    <p>* Check Google Maps Link Above</p>
+                    <hr class="visible-xs">
+                </section>
+            </div>
+            <div class="text-center">&copy; FETTA DI MAGIA 2023</div>
+        </div>
+    </footer>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
